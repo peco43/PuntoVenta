@@ -78,7 +78,7 @@ body {
 
 .navbar-cls-top .navbar-brand {
     color: #fff;
-    background: #DD1533;
+    background: #15b8dd;
     width: 180px;
     text-align: center;
     height: 75px;
@@ -87,7 +87,7 @@ body {
     padding-top: 25px;
 }
 .navbar-cls-top .navbar-brand:hover {
-    background: #DD1533;
+    background: #15b8dd;
     color: #fff;
 }
 .header-right {
@@ -99,19 +99,19 @@ body {
 .user-img-div {
     min-height: 130px;
     padding: 20px;
-    background-color: #262626;
+    background-color:black;
     text-align:center;
 }
 
     .user-img-div img {
         height: 130px;
-        border: 5px solid #DD1533;
+        border: 5px solid #15b8dd;
     }
 
    
 .active-menu {
     background-color: #fff!important;
-    border-left: 5px solid #DD1533;
+    border-left: 5px solid #15b8dd;
 }
 .active-menu-top {
     background-color: #000!important;
