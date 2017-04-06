@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proveedores</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME ICONS STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!--CUSTOM STYLES-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="fonts/style.css" rel="stylesheet" />
+    <link href="css/mycss.css" rel="stylesheet" />
+   
+      <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a  class="navbar-brand" href="index.html">Sistema Facturacion
+
+                </a>
+            </div>
+
+            <div class="notifications-wrapper">
+<ul class="nav">
+               
+            
+              
+            </ul>
+               
+            </div>
+        </nav>
+        <!-- /. NAV TOP  -->
+        <nav  class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <div class="user-img-div">
+                            <img src="assets/img/user.png" class="img-circle" />
+
+                           
+                        </div>
+
+                    </li>
+                     <li>
+                        <a  href="#"> <strong> Usuario </strong></a>
+                    </li>
+
+                    <li>
+                        <a href="index.html"><i class="icon-clipboard "></i> Facturacion Venta</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-upload"></i> Registro Compra </a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a  href="busquedas.html"><i class="icon-search"></i>Busquedas</a>
+                        
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap "></i>Reportes<span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#"><i class="icon-box-remove"></i>Reporte Ventas</a>
+                            </li>
+                             <li>
+                                <a href="#"><i class="icon-box-add"></i>Reporte Compras</a>
+                            </li>
+                          
+                        </ul>
+                    </li>
+                       <li>
+                        <a href="#"><i class="icon-book "></i>Administracion<span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
+                            <li>
+                                <a  href="adm-cliente.html"><i class="icon-user"></i>Administrar Clientes</a>
+                            </li>
+                             <li>
+                                <a class="active-menu" href="adm-prov.html"><i class="icon-user"></i>Administrar Proveedores</a>
+                            </li>
+                             <li>
+                                <a href="adm-articulo.html"><i class="icon-newspaper"></i>Administrar Articulos</a>
+                            </li>
+                          
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#"><i class="fa fa-user-plus "></i><span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#"><i class="fa fa-user-plus"></i>Mi Perfil</a>
+                            </li>
+                             <li>
+                                <a href="#"><i class="fa fa-sign-out"></i> Logout</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                   
+                </ul>
+            </div>
+
+        </nav>
+        <!-- /. SIDEBAR MENU (navbar-side) -->
+        <div id="page-wrapper" class="page-wrapper-cls">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">Proveedores</h1>
+                    </div>
+                </div>
+               
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="container">
+                    <div class="btn-addus">        
+                     <span class="icon-folder-plus" data-toggle="collapse" data-target="#demo"></span>
+                        </div>
+                          
+                        <div id="demo" class="collapse">
+                      <form>
+                          <div class="Fomu-Nuevo">  
+                        <div class="form-group">
+                        <label for="Cod">Codigo:</label>
+                        <input type="text" class="form-control" id="Cod" required>
+                        </div>
+                        <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="form-group">
+                        <label for="Email">Emai:</label>
+                        <input type="email" class="form-control" id="Emai" placeholder="customEmail@mail.com" required>
+                        </div>
+                        <div class="form-group">
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" class="form-control" id="telefono" maxlength="8" placeholder="########" required>
+                        </div>
+                        <div class="form-group">
+                       <button class="registrar" > <span class="icon-checkmark"></span></button>
+                        </div>
+                            </div>
+                         
+                            </form>
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="container">
+
+                        <table id="example" class="display" cellspacing="0" width="100%">
+                        <thead>
+                        <tr>
+                        <th>Codigo</th>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Telefono</th>
+                        <th>Acciones</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>$320,800</td>
+                        <td class="act">
+                           <a id="edt" href=""><span class="icon-pencil"></span></a>
+                           <a id="dlt" href=""><span class="icon-bin"></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>$170,750</td>
+                        <td class="act">
+                           <a id="edt" href=""><span class="icon-pencil"></span></a>
+                           <a id="dlt" href=""><span class="icon-bin"></span></a></td>    
+                        </tr>
+                        </tbody>
+                        </table>
+
+                        </div>
+                        
+                    
+                    
+                    </div>
+                </div>
+                
+
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <footer >
+         &copy; 2017 YourCompany | By :MCTECHNOLOGY 
+    </footer>
+    <!-- /. FOOTER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+ 
+<script src="js/custom.js"></script>
+		
+
+</body>
+</html>
